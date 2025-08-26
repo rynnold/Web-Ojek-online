@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership - Drivers.id</title>
+    <link rel="icon" href="logo1.png" type="jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+        <section class="head">
+            <head>
+                <nav class="navbar navbar-expand-lg bg-dark p-4 fs-5">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                                <img src="logo1.png" alt="Bootstrap" width="65%" height="85"  class="rounded-circle">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active ts-2 text-light fw-bold" aria-current="page" href="index.html">Beranda</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link text-light" href="tujuan.html">Tujuan</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link text-light" href="feedback.html">FeedBack</a>
+                            </li>
+                            <li class="nav-item dropdown ms-4">
+                                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="membership.html">Membership</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
+            </head>
+        </section>
+
+        <section class="main">
+            <main>
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>10 Stamp</h3>
+                                        <p>Diskon 5%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>25 Stamp</h3>
+                                        <p>Diskon 15%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>35 Stamp</h3>
+                                        <p>Diskon 20%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>50 Stamp</h3>
+                                        <p>Diskon 30%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>60 Stamp</h3>
+                                        <p>Diskon 40%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <div class="card text-center p-3 shadow-sm">
+                                        <h3>75 Stamp</h3>
+                                        <p>Diskon 50%</p>
+                                        <button class="btn btn-outline-success">Tukarkan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card shadow-sm p-4">
+                                <div class="text-center">
+                                    <img src="https://img.icons8.com/ios-filled/100/user.png" alt="user" class="my-2">
+                                    <h4 class="my-2">Daftar Membership</h4>
+                                </div>
+                                <form action="index.html" method="get">
+                                    <div class="mb-3">
+                                        <label for="usn" class="fw-bold">Email/Username</label>
+                                        <input type="email" id="usn" name="usn" class="form-control mt-2" placeholder="Masukkan Email atau Username" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pw" class="fw-bold">Password</label>
+                                        <input type="password" id="pw" name="pw" class="form-control mt-2" placeholder="Masukkan Password" required>
+                                    </div>
+
+                                    <div class="my-3">
+                                        <label for="payment" class="fw-bold">Pilih metode pembayaran</label>
+                                        <select class="form-select my-2" id="payment" name="payment" required>
+                                        <option selected disabled>Pilih metode pembayaran</option>
+                                        <option value="Dana - Rp10.800">Dana - Rp10.800</option>
+                                        <option value="OVO - Rp10.800">OVO - Rp10.800</option>
+                                        <option value="GoPay - Rp10.800">GoPay - Rp10.800</option>
+                                        <option value="ShopeePay - Rp10.800">ShopeePay - Rp10.800</option>
+                                        <option value="QRIS - Rp10.500">QRIS - Rp10.500</option>
+                                        <option value="Bank Mandiri - Rp11.000">Bank Mandiri - Rp11.000</option>
+                                        <option value="Bank BCA - Rp11.000">Bank BCA - Rp11.000</option>
+                                        <option value="Bank BNI - Rp11.000">Bank BNI - Rp11.000</option>
+                                        <option value="Bank BRI - Rp11.000">Bank BRI - Rp11.000</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <button id="submitBtn" type="submit" class="form-control" style="background-color: green; color: white;">
+                                        Daftar
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    
+        <section id="footer">
+            <footer>
+                <div class="container-fluid p-2 mt-5 text-center fs-4">
+                    <p>By kelompok 4</p>
+                </div>
+            </footer>
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const paymentSelect = document.getElementById("payment");
+  const submitBtn = document.getElementById("submitBtn");
+
+  paymentSelect.addEventListener("change", function () {
+    if (this.value) {
+      submitBtn.textContent = "Bayar dengan " + this.value;
+    } else {
+      submitBtn.textContent = "Login";
+    }
+  });
+</script>
+</body>
+</html>

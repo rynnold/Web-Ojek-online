@@ -1,0 +1,37 @@
+body{
+    background-color: #f3f4f5;
+    color: black;
+}
+
+main{
+
+}
+
+footer{
+    background-color: rgb(27, 29, 32);
+    color: white;
+}
+
+#navbarNav{
+    color: white;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#navbar{
+    background-color: #44444e;
+
+}
+
+ul li a{
+    color: white;
+}
+
+
+#slide{
+    width: 100px;
+    height: 400px;
+}
